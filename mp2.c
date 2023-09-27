@@ -15,7 +15,7 @@
 // vii. Los procesos padres deberán esperar a que sus hijos terminen
 
 void main(){
-	pid_t pid, pid_abuelo, pid_padre, pid_nieto, pid_hijo;
+	pid_t pid_abuelo, pid_padre, pid_nieto, pid_hijo;
 	
 	pid_abuelo = getpid();
 	pid_hijo = fork();
