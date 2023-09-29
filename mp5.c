@@ -43,7 +43,7 @@ void main()
  else
  {
   pid2 = fork();
-  while((pid1 = wait(&status)) > 0);
+  while((pid1 = wait(NULL)) > 0);
   printf("CCC \n");
  }
  exit(0);
